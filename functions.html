@@ -1,0 +1,12 @@
+	
+function passwordCreate(string1,string2){
+    var x="";
+    for(i=0;i<3;i++){
+        x+=string1.charAt(i);
+    }
+    var password=x.concat(string2.length);
+    console.log(string2.length);
+    return password;
+}
+
+console.log(passwordCreate("Vepa","1984"));s
